@@ -32,6 +32,22 @@ class ViewController: UIViewController {
     @IBAction func button3Tapped(sender: UIButton) {
     }
     
+    func showAlert(status: String, title: String) {
+        
+        let alertController = UIAlertController(title: status, message: title, preferredStyle: .Alert)
+        let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel) { (action) in
+        }
+        alertController.addAction(cancelAction)
+        
+        let ok = UIAlertAction(title: "OK", style: .Default) { (action) in
+        }
+        
+        alertController.addAction(ok)
+        
+        self.presentViewController(alertController, animated: true) {
+        }
+    }
+    
 }
 
 
