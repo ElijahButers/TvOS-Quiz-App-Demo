@@ -21,15 +21,19 @@ class ViewController: UIViewController {
     }
 
     @IBAction func button0Tapped(sender: UIButton) {
+        showAlert("Wrong!", title: "Bummer you got it wrong!")
     }
 
     @IBAction func button1Tapped(sender: UIButton) {
+        showAlert("Correct!", title: "Whoo! That is the correct response!")
     }
     
     @IBAction func button2Tapped(sender: UIButton) {
+        showAlert("Wrong!", title: "Bummer, you got it wrong!")
     }
     
     @IBAction func button3Tapped(sender: UIButton) {
+        showAlert("Wrong!", title: "Bummer, you got it wrong!")
     }
     
     func showAlert(status: String, title: String) {
