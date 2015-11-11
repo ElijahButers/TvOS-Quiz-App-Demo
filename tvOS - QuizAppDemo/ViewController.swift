@@ -20,6 +20,34 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func button0Tapped(sender: UIButton) {
+    }
 
+    @IBAction func button1Tapped(sender: UIButton) {
+    }
+    
+    @IBAction func button2Tapped(sender: UIButton) {
+    }
+    
+    @IBAction func button3Tapped(sender: UIButton) {
+    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
